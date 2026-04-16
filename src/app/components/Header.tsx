@@ -2,17 +2,23 @@
 
 import Link from 'next/link';
 import { NavLink } from './NavLink';
+import Image from 'next/image';
 
 export const Header = () => {
   return (
-    <header className="flex bg-background-secondary/60 backdrop-blur-md w-full md:px-20 py-10 justify-between items-center">
+    <header className="fixed flex bg-background-secondary/60 backdrop-blur-md w-full md:px-20 py-5 justify-between items-center z-100">
       <Link href="/">
         <div className="font-display text-3xl font-bold text-primary">
-          RAFAELLO 3D
+          <Image
+            src={'/images/logo1.webp'}
+            alt="Logo Rafaello 3D"
+            width={180}
+            height={150}
+          />
         </div>
       </Link>
 
-      <nav className="font-sans md:text-xl">
+      <nav className="hidden md:flex font-sans md:text-xl">
         <ul className="flex gap-4 md:gap-14">
           <li>
             <NavLink href="/" label="Inicio" />
@@ -30,7 +36,7 @@ export const Header = () => {
       </nav>
 
       <Link href="/contacto">
-        <div className="bg-primary text-[#572285] font-sans font-bold px-6 py-2 rounded-xl">
+        <div className="bg-primary hover:bg-[#debbfd] text-[#572285] font-sans font-bold px-6 py-2 rounded-xl transition-all duration-300 shadow-[0_0_20px_rgba(205,149,253,0.6)]">
           Pedir presupuesto
         </div>
       </Link>

@@ -1,7 +1,9 @@
+import { Hero } from './components/Hero';
+
 export default function Home() {
   return (
-    <div className="flex ">
-      <h1 className="font-display">PROBANDO LAS NUEVAS FUENTES</h1>
+    <div className="flex w-full">
+      <Hero />
     </div>
   );
 }

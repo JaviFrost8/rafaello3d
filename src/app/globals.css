@@ -1,4 +1,5 @@
 @import 'tailwindcss';
+@import 'tailwind-animations';
 
 :root {
   --background-primary: #0e0e13;
