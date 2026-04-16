@@ -6,14 +6,15 @@ import Image from 'next/image';
 
 export const Header = () => {
   return (
-    <header className="fixed flex bg-background-secondary/60 backdrop-blur-md w-full md:px-20 py-5 justify-between items-center z-100">
+    <header className="fixed flex bg-background-secondary/60 backdrop-blur-md w-full md:px-20 py-5 justify-between items-center z-50">
       <Link href="/">
         <div className="font-display text-3xl font-bold text-primary">
           <Image
-            src={'/images/logo1.webp'}
+            src={'/images/logo-rafaello.webp'}
             alt="Logo Rafaello 3D"
-            width={180}
-            height={150}
+            width={190}
+            height={60}
+            className="drop-shadow-[0_0_10px_rgba(205,149,253,0.8)]"
           />
         </div>
       </Link>
