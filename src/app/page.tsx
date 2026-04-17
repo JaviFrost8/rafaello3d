@@ -1,9 +1,11 @@
-import { Hero } from './components/Hero';
+import { Process } from '@/components/Process';
+import { Hero } from '../components/Hero';
 
 export default function Home() {
   return (
-    <div className="flex w-full">
+    <div className="flex flex-col w-full">
       <Hero />
+      <Process />
     </div>
   );
 }
