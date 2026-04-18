@@ -14,9 +14,14 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: 'Rafaello 3D',
+  title: 'Impresión 3D en Chiclana | Figuras personalizadas y a medida',
   description:
-    'Página web dedicada a la impresión 3D de figuras a tamaño real con acabado artesanal',
+    'Servicio de impresión 3D en Chiclana de la Frontera. Creamos figuras personalizadas a tamaño real con acabados artesanales. Pide tu presupuesto.',
+  keywords: [
+    'impresión 3D Chiclana',
+    'figuras 3D personalizadas Cádiz',
+    'impresión 3D a medida',
+  ],
 };
 
 export default function RootLayout({
