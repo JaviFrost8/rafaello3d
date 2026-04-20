@@ -37,7 +37,7 @@ export const Header = () => {
       </nav>
 
       <Link href="/contacto">
-        <div className="bg-primary hover:bg-[#debbfd] text-[#572285] font-sans font-bold px-6 py-2 rounded-xl transition-all duration-300 shadow-[0_0_20px_rgba(205,149,253,0.8)]">
+        <div className="bg-primary hover:bg-[#debbfd] text-[#572285] font-display font-bold px-6 py-2 rounded-[6] transition-all duration-300 shadow-[0_0_20px_rgba(205,149,253,0.8)]">
           Pedir presupuesto
         </div>
       </Link>

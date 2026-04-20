@@ -25,7 +25,7 @@ export const Hero = () => {
           <div className="flex lg:gap-10 animate-fade-in animate-delay-700">
             <Link href={'/galeria'}>
               <button className="mt-12 bg-primary font-sans text-black px-6 py-3 rounded-2xl border-2 border-[#cd95fd] font-semibold cursor-pointer shadow-[0_0_20px_rgba(205,149,253,0.6)] transition-all duration-300 hover:shadow-[0_0_20px_rgba(205,149,253,0.9)]">
-                Explorar colección
+                Explorar Galería
               </button>
             </Link>
             <Link href={'/taller'}>

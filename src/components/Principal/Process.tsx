@@ -11,7 +11,7 @@ export const Process = () => {
       transition={{ duration: 0.6, ease: 'easeOut' }}
       viewport={{ once: true, amount: 0.2 }}
     >
-      <section className="flex flex-col w-full justify-center items-center lg:my-40">
+      <section className="flex flex-col w-full justify-center items-center lg:mt-40 lg:mb-20">
         <h2 className="text-6xl font-display font-semibold">
           DE LOS <span className="text-primary">BITS</span> AL{' '}
           <span className="text-tertiary">PINCEL</span>

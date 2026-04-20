@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { Space_Grotesk, Manrope } from 'next/font/google';
 import './globals.css';
-import { Header } from '../components/Header';
+import { Header } from '../components/Principal/Header';
 
 const spaceGrotesk = Space_Grotesk({
   variable: '--font-space',

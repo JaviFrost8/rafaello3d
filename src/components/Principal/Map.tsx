@@ -1,10 +1,10 @@
 import Image from 'next/image';
-import React from 'react';
 
 export const Map = () => {
   return (
-    <div className="md:mt-24 flex justify-center">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 w-full h-200 lg:h-[700] mx-auto">
+    <div className="relative w-full md:mt-24 flex justify-center">
+      {/*Grid Mapa*/}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 w-full h-200 lg:h-[700] mx-auto z-10">
         <div className="relative flex justify-center items-center w-full h-full aspect-square rounded-xl overflow-hidden">
           <div className="relative w-[80%] h-[80%] border border-[#00f0ff] rounded-lg overflow-hidden shadow-[0_0_40px_#00f0ff66]">
             <Image
@@ -25,9 +25,9 @@ export const Map = () => {
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="#00f0ff"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   className="icon icon-tabler icons-tabler-outline icon-tabler-current-location"
                 >
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -46,7 +46,36 @@ export const Map = () => {
             <small className="font-display">Provincia: Cádiz</small>
           </div>
         </div>
-        <div className="relative w-full h-full aspect-square rounded-xl overflow-hidden"></div>
+        <div className="relative w-full h-full aspect-square rounded-xl overflow-hidden">
+          <div className="flex w-full h-full items-center">
+            <div className="flex flex-col w-[90%]">
+              <h2 className="font-bold font-display text-5xl mb-8">
+                Raíces de <span className="text-secondary">Rafaello 3D</span>
+              </h2>
+              <p className="font-sans lg:text-2xl text-white/60 leading-relaxed">
+                Ubicados en el corazón de la Bahía de Cádiz, nuestro taller no
+                es solo un taller; es un punto de convergencia entre la herencia
+                artesana andaluza y la vanguardia tecnológica global. Desde
+                aquí, cada pieza viaja por toda España, llevando el sello de la
+                precisión de Chiclana.
+              </p>
+              <div className="flex md:mt-12">
+                <div className="flex font-display flex-col">
+                  <span className="md:text-4xl font-bold">207km²</span>
+                  <span className="text-white/30 font-light tracking-wider">
+                    ESPACIO CREATIVO
+                  </span>
+                </div>
+                <div className="flex font-display flex-col md:ml-26">
+                  <span className="md:text-4xl font-bold">24/7</span>
+                  <span className="text-white/30 font-light tracking-wider">
+                    CICLO DE IMPRESIÓN
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
