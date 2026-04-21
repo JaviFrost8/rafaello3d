@@ -1,22 +1,20 @@
 'use client';
 
 import Link from 'next/link';
-import { NavLink } from './NavLink';
+import { NavLink } from '../../features/home/components/NavLink';
 import Image from 'next/image';
 
 export const Header = () => {
   return (
-    <header className="fixed flex bg-background-secondary/60 backdrop-blur-md w-full md:px-20 py-5 justify-between items-center z-50">
-      <Link href="/">
-        <div className="font-display text-3xl font-bold text-primary">
-          <Image
-            src={'/images/logo-rafaello.webp'}
-            alt="Logo Rafaello 3D"
-            width={190}
-            height={60}
-            className="drop-shadow-[0_0_10px_rgba(205,149,253,0.8)]"
-          />
-        </div>
+    <header className="sticky flex top-0 left-0 w-full items-center justify-between bg-background-secondary/60 backdrop-blur-md px-4 md:px-20 py-5 z-50">
+      <Link href="/" className="shrink-0">
+        <Image
+          src="/images/logo-rafaello.webp"
+          alt="Logo Rafaello 3D"
+          width={190}
+          height={60}
+          className="drop-shadow-[0_0_10px_rgba(205,149,253,0.8)] w-[120] md:w-[150] lg:w-[180] xl:w-[200] h-auto"
+        />
       </Link>
 
       <nav className="hidden md:flex font-sans md:text-xl">
@@ -36,7 +34,10 @@ export const Header = () => {
         </ul>
       </nav>
 
-      <Link href="/contacto">
+      <Link
+        href="/contacto"
+        className="hidden lg:block shrink-0 whitespace-nowrap"
+      >
         <div className="bg-primary hover:bg-[#debbfd] text-[#572285] font-display font-bold px-6 py-2 rounded-[6] transition-all duration-300 shadow-[0_0_20px_rgba(205,149,253,0.8)]">
           Pedir presupuesto
         </div>

@@ -2,30 +2,33 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import { useIsMobile } from '@/hooks/useIsMobile';
 
 export const GetYourFigure = () => {
+  const isMobile = useIsMobile();
+
   return (
     <motion.div
-      initial={{ opacity: 0, y: 50 }}
+      initial={{ opacity: 0, y: isMobile ? 30 : 50 }}
       whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6, ease: 'easeOut' }}
-      viewport={{ once: true, amount: 0.4 }}
+      transition={{ duration: isMobile ? 0.4 : 0.6, ease: 'easeOut' }}
+      viewport={{ once: true, amount: isMobile ? 0.2 : 0.5 }}
     >
-      <section className="flex flex-col justify-center items-center md:mt-34 z-10">
-        <h2 className="font-display text-6xl font-bold">
+      <section className="flex flex-col justify-center items-center mt-18 md:mt-34 z-10">
+        <h2 className="font-display text-center px-4 text-4xl lg:text-6xl font-bold">
           HAZ REALIDAD <span className="text-primary">TU FIGURA</span> A{' '}
           <span className="text-tertiary">TAMAÑO REAL</span>
         </h2>
-        <p className="font-sans md:text-2xl mt-10 text-white/60">
+        <p className="text-center md:text-start font-sans text-xl my-5 md:text-2xl md:mt-10 text-white/60">
           Dinos que personaje tienes en mente y nosotros nos encargamos.
         </p>
         <Link href={'/contacto'}>
-          <button className="font-display cursor-pointer bg-primary hover:bg-[#ead5fc] md:mt-16 md:px-8 md:py-4 rounded-[6] text-[#572285] font-semibold shadow-[0_0_30px_rgba(205,149,253,0.8)] transition-all duration-300">
+          <button className="font-display cursor-pointer bg-primary hover:bg-[#ead5fc] mt-8 px-6 py-4 md:mt-16 md:px-8 md:py-4 rounded-[6] text-[#572285] font-semibold shadow-[0_0_30px_rgba(205,149,253,0.8)] transition-all duration-300">
             PEDIR PRESUPUESTO
           </button>
         </Link>
-        <div className="flex gap-10 md:my-16">
-          <div className="flex flex-col justify-center items-center w-[250]">
+        <div className="flex flex-col md:flex-row gap-4 md:gap-10 md:my-16">
+          <div className="flex flex-col justify-center items-center w-[250] mt-12 md:mt-0">
             <span className="mb-6">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

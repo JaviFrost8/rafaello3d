@@ -4,13 +4,14 @@ export const Map = () => {
   return (
     <div className="relative w-full md:mt-24 flex justify-center">
       {/*Grid Mapa*/}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 w-full h-200 lg:h-[700] mx-auto z-10">
-        <div className="relative flex justify-center items-center w-full h-full aspect-square rounded-xl overflow-hidden">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 w-full h-250 lg:h-[700] mx-auto z-10">
+        <div className="order-2 md:order-1 relative flex justify-center items-center w-full h-full aspect-square rounded-xl overflow-hidden">
           <div className="relative w-[80%] h-[80%] border border-[#00f0ff] rounded-lg overflow-hidden shadow-[0_0_40px_#00f0ff66]">
             <Image
               src={'/images/mapa.webp'}
               alt="Impresora 3D"
               fill
+              sizes="(max-width: 1024px) 100vw, 500px"
               className="object-cover"
             />
           </div>
@@ -46,9 +47,9 @@ export const Map = () => {
             <small className="font-display">Provincia: Cádiz</small>
           </div>
         </div>
-        <div className="relative w-full h-full aspect-square rounded-xl overflow-hidden">
-          <div className="flex w-full h-full items-center">
-            <div className="flex flex-col w-[90%]">
+        <div className="order-1 md:order-2 relative w-full h-full aspect-square rounded-xl overflow-hidden">
+          <div className="flex w-full h-full items-center mt-8 md:mt-0">
+            <div className="flex flex-col w-full p-2 md:p-0 md:w-[90%]">
               <h2 className="font-bold font-display text-5xl mb-8">
                 Raíces de <span className="text-secondary">Rafaello 3D</span>
               </h2>
@@ -59,7 +60,7 @@ export const Map = () => {
                 aquí, cada pieza viaja por toda España, llevando el sello de la
                 precisión de Chiclana.
               </p>
-              <div className="flex md:mt-12">
+              <div className="flex justify-center md:justify-start gap-6 md:gap-0 mt-6 md:mt-12">
                 <div className="flex font-display flex-col">
                   <span className="md:text-4xl font-bold">207km²</span>
                   <span className="text-white/30 font-light tracking-wider">

@@ -1,7 +1,7 @@
-import { Process } from '@/components/Principal/Process';
-import { Hero } from '../components/Principal/Hero';
-import { AboutRafaello } from '@/components/Principal/AboutRafaello';
-import { GetYourFigure } from '@/components/Principal/GetYourFigure';
+import { Process } from '@/app/features/home/components/Process';
+import { Hero } from './features/home/components/Hero';
+import { AboutRafaello } from '@/app/features/home/components/AboutRafaello';
+import { GetYourFigure } from '@/app/features/home/components/GetYourFigure';
 
 export default function Home() {
   return (
