@@ -10,7 +10,7 @@ export const AboutRafaello = () => {
     <>
       <section className="flex flex-col bg-background-secondary w-full md:px-16 lg:mt-16">
         <motion.div
-          initial={{ opacity: 0, y: isMobile ? 30 : 50 }}
+          initial={{ opacity: 0, y: isMobile ? 20 : 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: isMobile ? 0.4 : 0.6, ease: 'easeOut' }}
           viewport={{ once: true, amount: isMobile ? 0.1 : 0.5 }}
@@ -24,7 +24,7 @@ export const AboutRafaello = () => {
             </h2>
           </div>
           <div className="flex flex-col justify-center md:justify-start items-center md:items-start md:flex-row w-full mt-6 md:mt-14 px-4">
-            <p className="flex font-sans md:w-[50%] lg:text-2xl md:pr-20 leading-relaxed text-white/60">
+            <p className="flex font-sans md:w-[50%] text-xl lg:text-2xl md:pr-20 leading-relaxed text-white/60">
               Somos una empresa de Chiclana de la Frontera dedicada a la
               creación de figuras de coleccionista a escala real. Nacimos de la
               pasión por el detalle y la tecnología de impresión 3D,
@@ -45,9 +45,9 @@ export const AboutRafaello = () => {
       </section>
       <section className="relative z-10">
         {/*Fondo*/}
-        <div className="absolute inset-0 bg-[url('/images/patron.webp')] bg-cover bg-center z-10 opacity-40"></div>
+        <div className="absolute inset-0 bg-[url('/images/patron.webp')] bg-cover bg-center z-10 opacity-70"></div>
         {/*Degradado*/}
-        <div className="absolute top-0 left-0 w-full h-[20%] bg-linear-to-b from-background-secondary to-transparent z-50"></div>
+        <div className="absolute top-0 left-0 w-full h-[7%] md:h-[20%] bg-linear-to-b from-background-secondary to-transparent z-50"></div>
         <Map />
       </section>
     </>

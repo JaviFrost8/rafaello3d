@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Space_Grotesk, Manrope } from 'next/font/google';
 import './globals.css';
 import { Header } from './components/layout/Header';
+import { WhatsappButton } from './components/layout/WhatsappButton';
 
 const spaceGrotesk = Space_Grotesk({
   variable: '--font-space',
@@ -37,6 +38,7 @@ export default function RootLayout({
       <body className="min-h-screen flex flex-col">
         <Header />
         <main className="flex-1">{children}</main>
+        <WhatsappButton />
       </body>
     </html>
   );

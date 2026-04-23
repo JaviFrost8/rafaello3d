@@ -49,11 +49,11 @@ export const Map = () => {
         </div>
         <div className="order-1 md:order-2 relative w-full h-full aspect-square rounded-xl overflow-hidden">
           <div className="flex w-full h-full items-center mt-8 md:mt-0">
-            <div className="flex flex-col w-full p-2 md:p-0 md:w-[90%]">
+            <div className="flex flex-col w-full p-2 md:pl-4 md:w-[90%]">
               <h2 className="font-bold font-display text-5xl mb-8">
                 Raíces de <span className="text-secondary">Rafaello 3D</span>
               </h2>
-              <p className="font-sans lg:text-2xl text-white/60 leading-relaxed">
+              <p className="font-sans text-xl lg:text-2xl text-white/60 leading-relaxed">
                 Ubicados en el corazón de la Bahía de Cádiz, nuestro taller no
                 es solo un taller; es un punto de convergencia entre la herencia
                 artesana andaluza y la vanguardia tecnológica global. Desde
@@ -62,13 +62,13 @@ export const Map = () => {
               </p>
               <div className="flex justify-center md:justify-start gap-6 md:gap-0 mt-6 md:mt-12">
                 <div className="flex font-display flex-col">
-                  <span className="md:text-4xl font-bold">207km²</span>
+                  <span className="text-xl md:text-4xl font-bold">207km²</span>
                   <span className="text-white/30 font-light tracking-wider">
                     ESPACIO CREATIVO
                   </span>
                 </div>
                 <div className="flex font-display flex-col md:ml-26">
-                  <span className="md:text-4xl font-bold">24/7</span>
+                  <span className="text-xl md:text-4xl font-bold">24/7</span>
                   <span className="text-white/30 font-light tracking-wider">
                     CICLO DE IMPRESIÓN
                   </span>

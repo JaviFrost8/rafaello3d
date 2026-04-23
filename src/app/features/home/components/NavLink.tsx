@@ -1,5 +1,6 @@
 'use client';
 
+import { useScrollToTop } from '@/hooks/useScrollToTop';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
@@ -10,12 +11,13 @@ type Props = {
 
 export const NavLink = ({ href, label }: Props) => {
   const pathname = usePathname();
-
   const isActive = pathname === href;
+  const handleclick = useScrollToTop(pathname, href);
 
   return (
     <Link
       href={href}
+      onClick={handleclick}
       className={`relative group transition-colors ${
         isActive ? 'text-secondary' : 'text-gray-400 hover:text-secondary'
       }`}

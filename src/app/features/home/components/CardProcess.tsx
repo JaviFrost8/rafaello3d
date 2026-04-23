@@ -14,7 +14,7 @@ export const CardProcess = () => {
       {processSteps.map((step: ProcessStep, index) => (
         <motion.div
           key={step.id}
-          initial={{ opacity: 0, y: isMobile ? 30 : 50 }}
+          initial={{ opacity: 0, y: isMobile ? 20 : 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{
             duration: isMobile ? 0.4 : 0.6,
@@ -31,8 +31,9 @@ export const CardProcess = () => {
                   'Proceso de fabricación de figura mediante impresión 3D en Chiclana de la Frontera'
                 }
                 fill
-                sizes="(max-width: 1024px) 100vw, 500px"
+                sizes="(max-width: 1024px) 80vw, 1024px"
                 className="object-cover"
+                priority
               />
             </div>
             <div className="flex gap-5 justify-center md:justify-start items-center my-4 md:my-8">
@@ -46,7 +47,7 @@ export const CardProcess = () => {
               </h2>
             </div>
             <div>
-              <p className="font-sans text-center md:text-start md:text-xl text-white/60 leading-relaxed">
+              <p className="font-sans text-center md:text-start text-xl text-white/60 leading-relaxed">
                 {step.description}
               </p>
             </div>

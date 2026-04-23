@@ -9,7 +9,7 @@ export const Process = () => {
 
   return (
     <motion.div
-      initial={{ opacity: 0, y: isMobile ? 30 : 50 }}
+      initial={{ opacity: 0, y: isMobile ? 20 : 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: isMobile ? 0.4 : 0.6, ease: 'easeOut' }}
       viewport={{ once: true, amount: isMobile ? 0.1 : 0.3 }}
