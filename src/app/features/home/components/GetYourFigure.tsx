@@ -25,7 +25,9 @@ export const GetYourFigure = () => {
         <p className="text-center font-sans text-xl md:text-2xl px-2 text-white/60">
           No trabajamos con figuras de pequeño formato; nuestras piezas se{' '}
           <br className="hidden md:block" />
-          realizan en escala 1:2 como mínimo, pensadas para destacar.
+          realizan en{' '}
+          <span className="text-secondary">escala 1:2 como mínimo,</span>{' '}
+          pensadas para destacar.
         </p>
         <Link href={'/contacto'}>
           <button className="font-display cursor-pointer bg-primary hover:bg-[#ead5fc] md:hover:px-10 mt-8 px-6 py-4 md:mt-16 md:px-8 md:py-4 rounded-[6] text-[#572285] font-semibold shadow-[0_0_30px_rgba(205,149,253,0.8)] transition-all duration-300">
