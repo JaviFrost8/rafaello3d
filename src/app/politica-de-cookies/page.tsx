@@ -2,7 +2,7 @@ export default function page() {
   return (
     <div className="font-sans max-w-5xl mx-auto p-6 text-gray-300 leading-relaxed space-y-10 md:mb-25">
       <div className="flex flex-col justify-center items-center space-y-2">
-        <h1 className="font-display text-4xl md:text-5xl font-bold tracking-tight mb-3 text-gray-100">
+        <h1 className="font-display text-4xl md:text-5xl font-bold tracking-tight mb-3 text-gray-100 text-center">
           POLÍTICA DE COOKIES
         </h1>
         <p className="text-gray-400">www.rafaello3d.es</p>
@@ -91,7 +91,7 @@ export default function page() {
               rel="noopener noreferrer"
               className="text-primary hover:underline"
             >
-              https://www.facebook.com/policies/cookies/
+              Política de cookies
             </a>
           </li>
 
@@ -103,7 +103,7 @@ export default function page() {
               rel="noopener noreferrer"
               className="text-primary hover:underline"
             >
-              https://twitter.com/es/privacy
+              Política de privacidad
             </a>
           </li>
 
@@ -115,7 +115,7 @@ export default function page() {
               rel="noopener noreferrer"
               className="text-primary hover:underline"
             >
-              https://help.instagram.com/1896641480634370?ref=ig
+              Centro de privacidad
             </a>
           </li>
 
@@ -127,7 +127,7 @@ export default function page() {
               rel="noopener noreferrer"
               className="text-primary hover:underline"
             >
-              https://policies.google.com/privacy?hl=es-419&gl=mx
+              Política de privacidad de Google
             </a>
           </li>
 
@@ -139,7 +139,7 @@ export default function page() {
               rel="noopener noreferrer"
               className="text-primary hover:underline"
             >
-              https://policy.pinterest.com/es/privacy-policy
+              Política de privacidad
             </a>
           </li>
 
@@ -151,7 +151,7 @@ export default function page() {
               rel="noopener noreferrer"
               className="text-primary hover:underline"
             >
-              https://www.linkedin.com/legal/cookie-policy?trk=hp-cookies
+              Política de cookies
             </a>
           </li>
         </ul>

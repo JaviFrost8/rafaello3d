@@ -7,7 +7,7 @@ export const Hero = () => {
       <div className="flex w-full items-center md:ml-16 lg:ml-32">
         <div className="px-4 mt-8 md:mt-6">
           <div className="font-display w-fit text-secondary font-semibold tracking-[2] bg-[#325255] text-[12px] md:text-sm rounded-full px-3 py-1 border mb-8 animate-fade-in animate-delay-200">
-            ARTESANÍA DE SIGUIENTE GENERACIÓN
+            FIGURAS 3D A ESCALA REAL
           </div>
           <h1 className="text-5xl md:text-7xl lg:text-9xl font-display font-semibold animate-fade-in animate-delay-700">
             Más allá de lo
@@ -15,7 +15,8 @@ export const Hero = () => {
             <span className="text-primary">digital</span>
           </h1>
           <h2 className="sr-only">
-            Servicio de impresión 3D personalizada en Chiclana de la Frontera
+            Creación de figuras 3D personalizadas a tamaño real en Chiclana de
+            la Frontera
           </h2>
           <p className="text-xl md:text-3xl font-sans mt-10 animate-fade-in animate-delay-700">
             Donde la precisión del modelado 3D converge con la

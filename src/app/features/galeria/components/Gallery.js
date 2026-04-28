@@ -59,7 +59,7 @@
                   transition: { staggerChildren: 0.15 },
                 },
               }}
-              className="grid grid-cols-2 md:grid-cols-4 gap-5"
+              className="grid grid-cols-2 md:grid-cols-5 gap-5"
             >
 
               {data.images.map((src, i) => (

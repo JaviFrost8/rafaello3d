@@ -10,6 +10,7 @@ export const galleries = {
       '/images/figures/anime6.webp',
       '/images/figures/anime7.webp',
       '/images/figures/anime8.webp',
+      '/images/figures/anime9.webp',
     ],
   },
   movies: {
@@ -19,6 +20,7 @@ export const galleries = {
       '/images/figures/pelicula2.webp',
       '/images/figures/pelicula3.webp',
       '/images/figures/pelicula4.webp',
+      '/images/figures/pelicula5.webp',
     ],
   },
   games: {

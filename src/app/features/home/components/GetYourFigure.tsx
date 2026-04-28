@@ -14,7 +14,7 @@ export const GetYourFigure = () => {
       transition={{ duration: isMobile ? 0.4 : 0.6, ease: 'easeOut' }}
       viewport={{ once: true, amount: isMobile ? 0.2 : 0.5 }}
     >
-      <section className="flex flex-col justify-center items-center mt-18 md:mt-34 z-10">
+      <section className="flex flex-col justify-center items-center pb-12 md:pb-0 mt-18 md:mt-34 md:mb-34 z-10">
         <h2 className="font-display text-center px-4 text-4xl lg:text-6xl font-bold">
           HAZ REALIDAD <span className="text-primary">TU FIGURA</span> A{' '}
           <span className="text-tertiary">TAMAÑO REAL</span>

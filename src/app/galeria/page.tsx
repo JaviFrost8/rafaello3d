@@ -11,11 +11,11 @@ export default function page() {
             <span className="text-primary">nuestras piezas</span>
           </h2>
           <div className="bg-secondary h-1 w-22 my-8 ml-2 md:ml-0"></div>
-          <p className="text-xl lg:text-2xl md:w-[60%] font-sans leading-relaxed mb-16 px-2">
-            Aquí puedes ver algunas de las piezas que hemos creado para nuestros
-            clientes. Cada una está hecha con atención al detalle, cuidando cada
-            paso para conseguir un resultado único y de calidad. Nos adaptamos a
-            cada idea para convertirla en algo real y especial.
+          <p className="text-xl lg:text-2xl md:w-[80%] font-sans leading-relaxed mb-16 px-2">
+            Las piezas mostradas forman parte de trabajos realizados previamente
+            y no constituyen un catálogo cerrado. Realizamos encargos
+            personalizados, por lo que puedes solicitarnos cualquier personaje y
+            lo desarrollaremos a medida.
           </p>
         </div>
 

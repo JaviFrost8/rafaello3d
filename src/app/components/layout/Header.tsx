@@ -11,14 +11,14 @@ export const Header = () => {
   const handleClick = useScrollToTop(pathname, '/');
 
   return (
-    <header className="sticky flex top-0 left-0 w-full items-center justify-between bg-background-secondary/60 backdrop-blur-md px-4 md:px-20 py-5 z-50">
-      <Link href="/" onClick={handleClick} className="shrink-0">
+    <header className="sticky flex top-0 left-0 w-full items-center justify-between bg-background-secondary/60 backdrop-blur-md px-4 md:px-20 py-5 z-50 will-change-transform">
+      <Link href="/" onClick={handleClick}>
         <Image
           src="/images/logo-rafaello.webp"
           alt="Logo Rafaello 3D"
           width={190}
           height={60}
-          className="drop-shadow-[0_0_10px_rgba(205,149,253,0.8)] w-[120] md:w-[150] lg:w-[180] xl:w-[200] h-auto"
+          className="drop-shadow-[0_0_10px_rgba(205,149,253,0.8)] w-[150] lg:w-[180] xl:w-[200] h-auto"
           priority
         />
       </Link>
