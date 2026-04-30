@@ -7,17 +7,21 @@ import { usePathname } from 'next/navigation';
 type Props = {
   href: string;
   label: string;
+  close?: () => void;
 };
 
-export const NavLink = ({ href, label }: Props) => {
+export const NavLink = ({ href, label, close }: Props) => {
   const pathname = usePathname();
   const isActive = pathname === href;
-  const handleclick = useScrollToTop(pathname, href);
+  const handleClick = useScrollToTop(pathname, href);
 
   return (
     <Link
       href={href}
-      onClick={handleclick}
+      onClick={(e) => {
+        handleClick(e);
+        close?.();
+      }}
       className={`relative group transition-colors ${
         isActive ? 'text-secondary' : 'text-gray-400 hover:text-secondary'
       }`}

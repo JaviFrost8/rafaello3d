@@ -11,8 +11,8 @@ export const Footer = () => {
 
   return (
     <>
-      <footer className="flex flex-col md:flex-row w-full bg-background-secondary min-h-[300] py-10 md:py-30 md:justify-center gap-10 md:gap-60">
-        <div className="font-sans">
+      <footer className="flex flex-col md:flex-row w-full bg-background-secondary min-h-[300] justify-around items-center py-10">
+        <div className="font-sans py-10">
           <Link
             href="/"
             onClick={handleClick}
@@ -29,7 +29,7 @@ export const Footer = () => {
           </Link>
           <Social />
         </div>
-        <div className="flex flex-col justify-center items-center text-center">
+        <div className="flex flex-col justify-center items-center text-center py-10">
           <h3 className="font-sans font-bold text-xl mb-6 text-primary">
             Navegación
           </h3>
@@ -152,7 +152,7 @@ export const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center text-center">
+        <div className="flex flex-col justify-center items-center text-center py-10">
           <h3 className="font-sans font-bold text-xl mb-6 text-primary">
             Legal
           </h3>

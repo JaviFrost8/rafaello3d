@@ -34,7 +34,7 @@ export const GetYourFigure = () => {
             PEDIR PRESUPUESTO
           </button>
         </Link>
-        <div className="flex flex-col md:flex-row gap-4 md:gap-10 md:my-16">
+        <div className="flex flex-col md:flex-row gap-4 md:gap-5 md:my-16">
           <div className="flex flex-col justify-center items-center w-[250] mt-12 md:mt-0">
             <span className="mb-6">
               <svg
