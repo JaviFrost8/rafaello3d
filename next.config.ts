@@ -7,13 +7,6 @@ const nextConfig: NextConfig = {
     return [
       {
         source: '/:path*',
-        has: [
-          {
-            type: 'header',
-            key: 'x-forwarded-proto',
-            value: 'http',
-          },
-        ],
         destination: 'https://rafaello3d.es/:path*',
         permanent: true,
       },
