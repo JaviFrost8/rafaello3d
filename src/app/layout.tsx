@@ -16,7 +16,7 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.rafaello3d.es'),
+  metadataBase: new URL('https://rafaello3d.es'),
 
   title: 'Impresión 3D en Chiclana | Figuras a tamaño real.',
   description:
