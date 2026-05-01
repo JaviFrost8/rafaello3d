@@ -24,6 +24,22 @@ export const metadata: Metadata = {
     'figuras 3D personalizadas Cádiz',
     'impresión 3D a medida',
   ],
+  openGraph: {
+    title: 'Impresión 3D en Chiclana | Figuras a tamaño real.',
+    description:
+      'Creamos figuras 3D personalizadas a tamaño real con acabados artesanales.',
+    url: 'https://rafaello3d.es',
+    siteName: 'Impresión 3D Chiclana',
+    images: [
+      {
+        url: 'https://tudominio.com/og-image.webp',
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: 'website',
+    locale: 'es_ES',
+  },
 };
 
 export default function RootLayout({
