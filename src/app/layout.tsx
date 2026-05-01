@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     siteName: 'Impresión 3D Chiclana',
     images: [
       {
-        url: 'https://tudominio.com/og-image.webp',
+        url: 'https://rafaello3d.es/og-image.webp',
         width: 1200,
         height: 630,
       },
