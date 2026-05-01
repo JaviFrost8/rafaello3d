@@ -43,7 +43,7 @@ export const metadata: Metadata = {
 
     images: [
       {
-        url: 'https://rafaello3d.es/og-image.jpg',
+        url: 'https://rafaello3d.es/og-image.jpg?v=2',
         width: 1200,
         height: 630,
         alt: 'Impresión 3D en Chiclana',
