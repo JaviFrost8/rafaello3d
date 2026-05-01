@@ -5,7 +5,7 @@ export const Map = () => {
     <div className="relative w-full md:mt-24 flex justify-center">
       {/*Grid Mapa*/}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 w-full h-250 lg:h-[700] mx-auto z-10">
-        <div className="order-2 md:order-1 relative flex justify-center items-center w-full h-full aspect-square rounded-xl overflow-hidden">
+        <div className="order-2 md:order-1 relative flex justify-center items-center w-full h-full aspect-square rounded-xl overflow-hidden pb-15 md:pb-0">
           <div className="relative w-[80%] h-[80%] border border-[#00f0ff] rounded-lg overflow-hidden shadow-[0_0_40px_#00f0ff66]">
             <Image
               src={'/images/mapa.webp'}
@@ -15,7 +15,7 @@ export const Map = () => {
               className="object-cover"
             />
           </div>
-          <div className="absolute bottom-0 right-5 md:bottom-0 md:right-5 lg:bottom-10 lg:right-5 bg-[#325255] p-5 border border-[#00f0ff]">
+          <div className="absolute bottom-5 right-5 md:bottom-0 md:right-5 lg:bottom-10 lg:right-5 bg-[#325255] p-5 border border-[#00f0ff]">
             <div className="mb-4">
               <div className="flex justify-between items-center mb-3">
                 <h2 className="font-sans text-secondary">Coordenadas</h2>

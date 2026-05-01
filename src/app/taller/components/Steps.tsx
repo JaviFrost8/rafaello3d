@@ -42,9 +42,10 @@ export const Steps = () => {
     <div className="w-full mt-12 lg:mt-20 flex flex-col items-center relative mb-12">
       {/* Línea central */}
       <div
-        className="absolute left-1/2 top-0 bottom-30 w-0.5 hidden lg:block z-0"
+        className="absolute left-1/2 top-0 bottom-30 w-px hidden lg:block z-0"
         style={{
           background: `linear-gradient(to bottom, #00f0ff, #cd95fd, #ff5c00)`,
+          filter: 'brightness(0.7)',
         }}
       />
 

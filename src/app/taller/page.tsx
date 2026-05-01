@@ -1,17 +1,11 @@
 'use client';
 import { CallToAction } from './components/CallToAction';
 import { Steps } from './components/Steps';
-import { motion } from 'framer-motion';
 
 export default function page() {
   return (
     <>
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6, ease: 'easeOut' }}
-        className="flex flex-col justify-center items-center w-full mt-10"
-      >
+      <div className="flex flex-col justify-center items-center w-full mt-10 animate-fade-in animate-duration-300">
         <div className=" flex flex-col justify-center items-center w-full">
           <h3 className="font-display text-secondary tracking-[4px]">
             TIMELINE DE PRODUCCIÓN
@@ -25,7 +19,7 @@ export default function page() {
             pieza de Rafaello3D.
           </p>
         </div>
-      </motion.div>
+      </div>
       <Steps />
       <CallToAction />
     </>
