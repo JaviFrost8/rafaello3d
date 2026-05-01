@@ -33,19 +33,20 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: 'Impresión 3D en Chiclana | Figuras a tamaño real.',
+    title: 'Figuras 3D a tamaño real en Chiclana',
     description:
       'Creamos figuras 3D personalizadas a tamaño real con acabados artesanales.',
     url: 'https://rafaello3d.es',
-    siteName: 'Impresión 3D Chiclana',
+    siteName: 'Rafaello3D',
     type: 'website',
     locale: 'es_ES',
 
     images: [
       {
-        url: '/og-image.jpg',
+        url: 'https://rafaello3d.es/og-image.jpg',
         width: 1200,
         height: 630,
+        alt: 'Impresión 3D en Chiclana',
       },
     ],
   },
