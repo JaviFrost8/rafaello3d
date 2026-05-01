@@ -47,6 +47,7 @@ export const metadata: Metadata = {
         width: 1200,
         height: 630,
         alt: 'Impresión 3D en Chiclana',
+        type: 'image/jpeg',
       },
     ],
   },
