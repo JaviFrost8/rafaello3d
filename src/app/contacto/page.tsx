@@ -12,11 +12,13 @@ export default function page() {
         transition={{ duration: 0.6, ease: 'easeOut' }}
         className="flex flex-col items-center justify-center mt-10"
       >
-        <h2 className="font-display text-secondary">FASE DE ENLACE</h2>
-        <h1 className="font-display text-5xl text-center mx-4 lg:text-6xl font-bold mt-4 md:mt-8">
+        <h3 className="font-display text-secondary tracking-[4px]">
+          FASE DE ENLACE
+        </h3>
+        <h2 className="font-display text-5xl text-center mx-4 lg:text-6xl font-bold mt-4 md:mt-8">
           Hablemos de <span className="text-tertiary">tu figura</span>
-        </h1>
-        <p className="text-center font-sans mx-4 mt-4 lg:mt-10">
+        </h2>
+        <p className="text-center font-sans mx-4 mt-4 lg:mt-10 text-white/60">
           Cuéntanos tu idea y te ayudamos a convertirla en una pieza real.{' '}
           <br />
           Puedes escribirnos por WhatsApp, email o usar el formulario.
