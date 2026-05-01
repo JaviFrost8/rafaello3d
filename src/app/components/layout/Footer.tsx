@@ -180,7 +180,7 @@ export const Footer = () => {
             <a
               target="_blank"
               className="pl-1 hover:text-tertiary transition-all duration-300"
-              href="https://portfoliov2vercel.vercel.app/"
+              href="https://javidev.es"
             >
               <small>Javidev</small>
             </a>
