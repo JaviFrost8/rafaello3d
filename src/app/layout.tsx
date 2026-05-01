@@ -16,29 +16,46 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://rafaello3d.es'),
+
   title: 'Impresión 3D en Chiclana | Figuras a tamaño real.',
   description:
     'Servicio de impresión 3D en Chiclana de la Frontera. Creamos figuras personalizadas a tamaño real con acabados artesanales. Pide tu presupuesto.',
+
   keywords: [
     'impresión 3D Chiclana',
     'figuras 3D personalizadas Cádiz',
     'impresión 3D a medida',
   ],
+
+  alternates: {
+    canonical: 'https://rafaello3d.es',
+  },
+
   openGraph: {
     title: 'Impresión 3D en Chiclana | Figuras a tamaño real.',
     description:
       'Creamos figuras 3D personalizadas a tamaño real con acabados artesanales.',
     url: 'https://rafaello3d.es',
     siteName: 'Impresión 3D Chiclana',
+    type: 'website',
+    locale: 'es_ES',
+
     images: [
       {
-        url: 'https://rafaello3d.es/og-image.jpg',
+        url: '/og-image.jpg',
         width: 1200,
         height: 630,
       },
     ],
-    type: 'website',
-    locale: 'es_ES',
+  },
+
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Impresión 3D en Chiclana',
+    description:
+      'Figuras 3D personalizadas a tamaño real con acabados artesanales.',
+    images: ['/og-image.jpg'],
   },
 };
 
