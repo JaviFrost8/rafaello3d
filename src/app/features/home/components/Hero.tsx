@@ -19,9 +19,9 @@ export const Hero = () => {
             la Frontera
           </h2>
           <p className="text-xl md:text-3xl font-sans mt-10 animate-fade-in animate-delay-700">
-            Donde la precisión del modelado 3D converge con la
+            Donde la precisión del modelado 3D converge con la{' '}
             <br className="hidden md:block" />
-            sensibilidad del acabado a mano. Piezas únicas que
+            sensibilidad del acabado a mano. Piezas únicas que{' '}
             <br className="hidden md:block" />
             respiran alma en el mundo físico.
           </p>

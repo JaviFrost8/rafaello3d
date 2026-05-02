@@ -54,7 +54,7 @@ export const metadata: Metadata = {
 
   twitter: {
     card: 'summary_large_image',
-    title: 'Impresión 3D en Chiclana',
+    title: 'FIGURAS 3D A TAMAÑO REAL',
     description:
       'Figuras 3D personalizadas a tamaño real con acabados artesanales.',
     images: ['/og-image.jpg'],
