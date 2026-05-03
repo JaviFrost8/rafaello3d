@@ -27,6 +27,9 @@ export const metadata: Metadata = {
     'figuras 3D personalizadas Cádiz',
     'impresión 3D a medida',
   ],
+  icons: {
+    icon: '/favicon.ico',
+  },
 
   alternates: {
     canonical: 'https://rafaello3d.es',
